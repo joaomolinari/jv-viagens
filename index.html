@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Viagens">
+    <meta name ="author" content="Joao Vitor A. Molinari">
+    <meta name ="keywords" content="Viagens, Lazer, Passeio">
+    <meta name ="robots" content = "index,all">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JV Viagens</title>
+    <link rel="shortcut icon" href="img/icons8-mala-16.png" type="image/x-icon">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Viagem</h2>
+            <div class="toggle"></div>
+          </header>
+          <video src="Estrada - 60780.mp4" muted loop autoplay width="1335px"></video> 
+
+          <div class="overlay"></div>
+    <div class="text">
+      <h2>Nunca pare</h2> 
+      <h3>De explorar o mundo</h3>
+      <p>O mundo é cheio de surpresas e oportunidades, portanto não desperdice seu tempo
+        se preocupando tanto com as coisas do seu dia-a-dia, você também merece um tempo,
+        conheça novos lugares e novas pessoas, o mundo só tem coisas boas a oferecer.</p>
+      <a href="#">Explorar</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Notícias</a></li>
+      <li><a href="#">Destinos</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contatos</a></li>
+    </ul>
+  </div>
+
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    }) 
+  </script>
+    
+</body>
+</html>
